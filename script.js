@@ -26,7 +26,7 @@ function createNote(){
     var node1 = document.createElement("h1");
 
     node1.innerHTML = noteText;
-    node1.setAttribute("style", "width:250px; height:250px; padding:25px; margin-top:10px; font-size:26x; overflow:hidden; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75)");
+    node1.setAttribute("style", "width:250px; height:250px; padding:25px; margin-top:10px;overflow-wrap: break-word; font-size:26x; overflow:hidden; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75)");
     node1.style.margin = margin();
     node1.style.transform = rotate();
     node1.style.background = color();

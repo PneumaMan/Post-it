@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    background: #a6f6f1;
-    font-size: 24px;
+    background: #e1addc;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .main-container{
@@ -42,6 +45,22 @@ textarea{
     padding: 40px 25px 25px 25px ;
     border-radius: 5px;
 }
+
+button{
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+    background: whitesmoke;
+    border: 1px solid lightgray;
+  }
+  
+  button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
 
 svg{
     color: #213e3b;
